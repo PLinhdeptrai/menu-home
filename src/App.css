@@ -1,0 +1,55 @@
+
+
+.menu{
+
+}
+
+.menu-container{
+  display: flex;
+
+}
+
+.menu-left{
+  background-color: red;
+  flex: 1;
+  height: 100vh;
+}
+
+
+.menu-left-header{
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.menu-left-body{
+  height: 80vh;
+  background-color: #fff;
+}
+.menu-left-footer{
+  width: 100%;
+}
+
+.menu-right{
+  background-color: black;
+  flex: 5;
+  height: 100vh;
+}
+
+.profile{
+  width: 100%;
+  padding: 0 !important;
+}
+
+.user-name{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.user-name .user-id{
+  font-size: 8px;
+}
